@@ -101,8 +101,12 @@ class Pessoa {
     comerPrato(_prato) {
         console.log(`${this.nome} come: ${_prato}`);
     }
-    mostrarPeso() {
-        console.log(`${this.nome} está pesando ${this.peso}KG`);
+    /**
+     * CRUD
+     */
+    cadastroPessoa(bananinha) {
+        //persistindo os dados
+        console.log(`${bananinha.nome} cadastrado com sucesso`);
     }
 }
 exports.Pessoa = Pessoa;

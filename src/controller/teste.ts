@@ -1,23 +1,12 @@
 import { Pessoa } from "../model/Pessoa";
 
-let pessoa = new Pessoa (`Yasmim`,
-                        `111111111111`,
-                        new Date(2006,11,4),
-                        `994019898`,
-                        `Rua número 1`,
-                        172,
-                        65);
-pessoa.falar();
+let pessoa = new Pessoa (`Maria Zeferina`,
+                        `333333333333`,
+                        new Date (1972,8,29),
+                        `9999999999`,
+                        `Rua das corridas`,
+                        165,
+                        55)
 
-pessoa.falarFrase("VAI CURINTIA!!! BANDO DE OREIUDO");
-
-pessoa.andar();
-
-pessoa.andarQuilometros(30);
-
-pessoa.comer();
-
-pessoa.comerPrato("Prato de macarronada");
-
-pessoa.mostrarPeso();
+pessoa.cadastroPessoa(pessoa);
 

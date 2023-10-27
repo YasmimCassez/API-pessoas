@@ -127,4 +127,14 @@ export class Pessoa {
         console.log(`${this.nome} come: ${_prato}`);
     }
 
+
+/**
+ * CRUD
+ */
+
+cadastroPessoa(bananinha: Pessoa){
+    //persistindo os dados
+    console.log(`${bananinha.nome} cadastrado com sucesso`);
+
+}
 }
